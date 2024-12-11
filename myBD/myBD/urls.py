@@ -17,6 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+#Trayendo vistas de las apps
+from clientes.views import lista_clientes  
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('clientes/', lista_clientes, name='lista_clientes'),  # Define la URL para clientes
 ]
+
