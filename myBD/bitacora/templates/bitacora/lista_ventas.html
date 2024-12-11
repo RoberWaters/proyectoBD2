@@ -1,0 +1,44 @@
+<!-- bitacora/templates/bitacora/lista_ventas.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Ventas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Listado de Ventas</h1>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID Venta</th>
+                    <th>Fecha</th>
+                    <th>ID Concesionario</th>
+                    <th>ID Cliente</th>
+                    <th>VIN</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for venta in ventas %}
+                    <tr>
+                        <td>{{ venta.idVenta }}</td>
+                        <td>{{ venta.fecha }}</td>
+                        <td>{{ venta.idConcesionario }}</td>
+                        <td>{{ venta.idCliente }}</td>
+                        <td>{{ venta.VIN }}</td>
+                        <td>{{ venta.precio }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="text-center">
+            <a href="{% url 'pagina_principal' %}" class="btn btn-primary">Volver al inicio</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

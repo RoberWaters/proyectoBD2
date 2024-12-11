@@ -15,9 +15,14 @@
         <div class="d-flex flex-wrap justify-content-center gap-3">
             <a class="btn btn-custom px-4 py-2" href="{% url 'lista_bitacora' %}"><i class="fas fa-handshake"></i>Bitácora</a>
             <a class="btn btn-custom px-4 py-2" href="{% url 'lista_clientes' %}"><i class="fas fa-user"></i>Clientes</a>
-            <!-- Aquí he agregado el ícono de tienda para Concesionarios -->
             <a class="btn btn-custom px-4 py-2" href="{% url 'lista_concesionarios' %}"><i class="fas fa-store"></i>Concesionarios</a>
-            <!-- Otros botones pueden ir aquí -->
+            <a class="btn btn-custom px-4 py-2" href="{% url 'lista_vehiculos' %}"><i class="fas fa-car"></i>Vehículos</a>
+            <a class="btn btn-custom px-4 py-2" href="{% url 'lista_proveedores' %}"><i class="fas fa-truck"></i>Proveedores</a>
+            <a class="btn btn-custom px-4 py-2" href="{% url 'lista_modelos' %}"><i class="fas fa-cogs"></i>Modelos</a>
+            <a class="btn btn-custom px-4 py-2" href="{% url 'lista_plantas' %}"><i class="fas fa-leaf"></i>Plantas</a>
+            <a class="btn btn-custom px-4 py-2" href="{% url 'lista_ventas' %}"><i class="fas fa-cart-arrow-down"></i>Ventas</a>
+
+            <!-- Aquí puedes agregar otros botones de acuerdo a tu necesidad -->
         </div>
     </div>
 </body>

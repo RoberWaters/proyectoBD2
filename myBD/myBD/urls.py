@@ -19,13 +19,17 @@ from django.urls import path
 
 #Trayendo vistas de las apps
 from clientes.views import lista_clientes  
-from bitacora.views import lista_bitacora, pagina_principal, lista_concesionarios
-
+from bitacora.views import lista_bitacora, pagina_principal, lista_concesionarios, lista_vehiculos,lista_proveedores, lista_modelos, lista_plantas, lista_ventas
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', pagina_principal, name='pagina_principal'),  # Página principal
     path('clientes/', lista_clientes, name='lista_clientes'),  # Define la URL para clientes
     path('bitacoras/', lista_bitacora, name='lista_bitacora'), #URL para bitacoras
     path('concesionarios/', lista_concesionarios, name='lista_concesionarios'),
+    path('vehiculos/', lista_vehiculos, name='lista_vehiculos'),
+    path('proveedores/', lista_proveedores, name='lista_proveedores'),
+    path('modelos/', lista_modelos, name='lista_modelos'),
+    path('plantas/', lista_plantas, name='lista_plantas'),
+    path('ventas/', lista_ventas, name='lista_ventas'),
 ]
 
