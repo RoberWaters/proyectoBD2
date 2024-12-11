@@ -523,3 +523,850 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'inicio' not found. 'inicio' 
 [11/Dec/2024 10:03:12] "GET /vehiculos/ HTTP/1.0" 500 123146
 [11/Dec/2024 10:03:14] "GET /clientes/ HTTP/1.0" 200 4486
 [11/Dec/2024 10:03:16] "GET /clientes/ HTTP/1.0" 200 4486
+Watching for file changes with StatReloader
+[11/Dec/2024 18:28:51] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 18:28:55] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 18:28:56] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 18:28:56] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 18:30:50] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 18:37:45] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 18:39:53] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 18:42:17] "GET / HTTP/1.0" 200 2582
+Not Found: /favicon.ico
+[11/Dec/2024 18:42:18] "GET /favicon.ico HTTP/1.0" 404 3300
+[11/Dec/2024 18:54:06] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:12:13] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:14:24] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:25:08] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:25:15] "GET /clientes/ HTTP/1.0" 200 4486
+[11/Dec/2024 19:25:20] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:25:21] "GET /concesionarios/ HTTP/1.0" 200 2365
+[11/Dec/2024 19:25:26] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:25:40] "GET /plantas/ HTTP/1.0" 200 1428
+[11/Dec/2024 19:25:46] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:25:47] "GET /vehiculos/ HTTP/1.0" 200 2541
+[11/Dec/2024 19:25:57] "GET /vehiculos/ HTTP/1.0" 200 2541
+[11/Dec/2024 19:25:59] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:26:00] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:26:11] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:26:13] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:26:37] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:26:56] "GET /vehiculos/ HTTP/1.0" 200 2541
+[11/Dec/2024 19:27:08] "GET /concesionarios/ HTTP/1.0" 200 2365
+[11/Dec/2024 19:27:12] "GET /clientes/ HTTP/1.0" 200 4486
+[11/Dec/2024 19:27:29] "GET /clientes/ HTTP/1.0" 200 4486
+[11/Dec/2024 19:28:07] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:28:09] "GET /bitacoras/ HTTP/1.0" 200 13015
+[11/Dec/2024 19:28:16] "GET /clientes/ HTTP/1.0" 200 4486
+[11/Dec/2024 19:28:17] "GET /concesionarios/ HTTP/1.0" 200 2365
+[11/Dec/2024 19:28:19] "GET /vehiculos/ HTTP/1.0" 200 2541
+[11/Dec/2024 19:28:20] "GET /proveedores/ HTTP/1.0" 200 2504
+[11/Dec/2024 19:28:22] "GET /modelos/ HTTP/1.0" 200 2203
+[11/Dec/2024 19:28:23] "GET /plantas/ HTTP/1.0" 200 1428
+[11/Dec/2024 19:28:25] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:28:26] "GET /ventas/ HTTP/1.0" 200 2720
+[11/Dec/2024 19:28:26] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:37:30] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:39:12] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:41:18] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:41:29] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:41:31] "GET / HTTP/1.0" 200 2582
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 11, 2024 - 18:28:44
+Django version 5.0.1, using settings 'myBD.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+[{'idBitacora': 1, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 2, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 3, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 4, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 5, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 6, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 7, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 8, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 9, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 10, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 11, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 12, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 13, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 14, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 15, 'accion': 'INSERT', 'relacion': 'PLANTAS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 420198), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 16, 'accion': 'INSERT', 'relacion': 'PLANTAS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 420198), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 17, 'accion': 'INSERT', 'relacion': 'PROVEEDORES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 424187), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 18, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 19, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 20, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 21, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 22, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 23, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 24, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 25, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 26, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 27, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 28, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 29, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 30, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 31, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 32, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}]
+[11/Dec/2024 19:41:33] "GET /bitacoras/ HTTP/1.0" 200 13015
+[11/Dec/2024 19:42:17] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:42:32] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:42:42] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:42:46] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:42:48] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:42:53] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:42:55] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:43:29] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:43:32] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:43:42] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:43:43] "GET /vehiculos/ HTTP/1.0" 200 2541
+[11/Dec/2024 19:43:54] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 19:44:05] "GET / HTTP/1.0" 200 2582
+[{'idBitacora': 1, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 2, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 3, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 4, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 5, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 6, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 7, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 8, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 9, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 10, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 11, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 12, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 13, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 14, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 15, 'accion': 'INSERT', 'relacion': 'PLANTAS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 420198), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 16, 'accion': 'INSERT', 'relacion': 'PLANTAS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 420198), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 17, 'accion': 'INSERT', 'relacion': 'PROVEEDORES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 424187), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 18, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 19, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 20, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 21, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 22, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 23, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 24, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 25, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 26, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 27, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 28, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 29, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 30, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 31, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 32, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}]
+[11/Dec/2024 19:44:14] "GET /bitacoras/ HTTP/1.0" 200 13015
+[11/Dec/2024 20:51:29] "GET / HTTP/1.0" 200 2582
+Not Found: /phpinfo
+[11/Dec/2024 20:51:29] "HEAD /phpinfo HTTP/1.0" 404 0
+Not Found: /phpinfo.php
+[11/Dec/2024 20:51:30] "HEAD /phpinfo.php HTTP/1.0" 404 0
+Not Found: /info.php
+[11/Dec/2024 20:51:30] "HEAD /info.php HTTP/1.0" 404 0
+Not Found: /info
+[11/Dec/2024 20:51:30] "HEAD /info HTTP/1.0" 404 0
+Not Found: /info1.php 
+[11/Dec/2024 20:51:31] "HEAD /info1.php%20 HTTP/1.0" 404 0
+Not Found: /info2.php
+[11/Dec/2024 20:51:31] "HEAD /info2.php HTTP/1.0" 404 0
+Not Found: /info3.php
+[11/Dec/2024 20:51:32] "HEAD /info3.php HTTP/1.0" 404 0
+Not Found: /test.php
+[11/Dec/2024 20:51:32] "HEAD /test.php HTTP/1.0" 404 0
+Not Found: /test1.php
+[11/Dec/2024 20:51:32] "HEAD /test1.php HTTP/1.0" 404 0
+Not Found: /test2.php
+[11/Dec/2024 20:51:33] "HEAD /test2.php HTTP/1.0" 404 0
+Not Found: /test3.php
+[11/Dec/2024 20:51:34] "HEAD /test3.php HTTP/1.0" 404 0
+Not Found: /phpversion.php
+[11/Dec/2024 20:51:34] "HEAD /phpversion.php HTTP/1.0" 404 0
+Not Found: /version.php
+[11/Dec/2024 20:51:35] "HEAD /version.php HTTP/1.0" 404 0
+Not Found: /ver.php
+[11/Dec/2024 20:51:35] "HEAD /ver.php HTTP/1.0" 404 0
+Not Found: /php.php
+[11/Dec/2024 20:51:35] "HEAD /php.php HTTP/1.0" 404 0
+Not Found: /xx.php
+[11/Dec/2024 20:51:47] "HEAD /xx.php HTTP/1.0" 404 0
+Not Found: /xxx.php
+[11/Dec/2024 20:51:47] "HEAD /xxx.php HTTP/1.0" 404 0
+Not Found: /db.php
+[11/Dec/2024 20:51:48] "HEAD /db.php HTTP/1.0" 404 0
+Not Found: /database.php
+[11/Dec/2024 20:51:50] "HEAD /database.php HTTP/1.0" 404 0
+Not Found: /configuration.php
+[11/Dec/2024 20:51:50] "HEAD /configuration.php HTTP/1.0" 404 0
+Not Found: /config.php
+[11/Dec/2024 20:51:50] "HEAD /config.php HTTP/1.0" 404 0
+Not Found: /phpmyadmin/config.php
+[11/Dec/2024 20:51:51] "HEAD /phpmyadmin/config.php HTTP/1.0" 404 0
+Not Found: /php-info.php
+[11/Dec/2024 20:51:51] "HEAD /php-info.php HTTP/1.0" 404 0
+Not Found: /php_info.php
+[11/Dec/2024 20:51:52] "HEAD /php_info.php HTTP/1.0" 404 0
+Not Found: /phpInfo.php
+[11/Dec/2024 20:51:52] "HEAD /phpInfo.php HTTP/1.0" 404 0
+Not Found: /PHPinfo.php
+[11/Dec/2024 20:51:52] "HEAD /PHPinfo.php HTTP/1.0" 404 0
+Not Found: /PHP-Info.php
+[11/Dec/2024 20:52:03] "HEAD /PHP-Info.php HTTP/1.0" 404 0
+Not Found: /PHP_Info.php
+[11/Dec/2024 20:52:03] "HEAD /PHP_Info.php HTTP/1.0" 404 0
+Not Found: /i.php
+[11/Dec/2024 20:52:04] "HEAD /i.php HTTP/1.0" 404 0
+Not Found: /inf.php
+[11/Dec/2024 20:52:04] "HEAD /inf.php HTTP/1.0" 404 0
+Not Found: /info-1.php
+[11/Dec/2024 20:52:05] "HEAD /info-1.php HTTP/1.0" 404 0
+Not Found: /inf0.php 
+[11/Dec/2024 20:52:05] "HEAD /inf0.php%20 HTTP/1.0" 404 0
+Not Found: /info0.php
+[11/Dec/2024 20:52:05] "HEAD /info0.php HTTP/1.0" 404 0
+Not Found: /aws/credentials.js
+[11/Dec/2024 20:52:11] "HEAD /aws/credentials.js HTTP/1.0" 404 0
+Not Found: /aws/config.js
+[11/Dec/2024 20:52:12] "HEAD /aws/config.js HTTP/1.0" 404 0
+Not Found: /aws/secrets.js
+[11/Dec/2024 20:52:12] "HEAD /aws/secrets.js HTTP/1.0" 404 0
+Not Found: /aws/keys.js
+[11/Dec/2024 20:52:13] "HEAD /aws/keys.js HTTP/1.0" 404 0
+Not Found: /aws-config.js
+[11/Dec/2024 20:52:13] "HEAD /aws-config.js HTTP/1.0" 404 0
+Not Found: /aws-credentials.js
+[11/Dec/2024 20:52:15] "HEAD /aws-credentials.js HTTP/1.0" 404 0
+Not Found: /aws-keys.js
+[11/Dec/2024 20:52:15] "HEAD /aws-keys.js HTTP/1.0" 404 0
+Not Found: /aws-secrets.js
+[11/Dec/2024 20:52:15] "HEAD /aws-secrets.js HTTP/1.0" 404 0
+Not Found: /aws.config.js
+[11/Dec/2024 20:52:16] "HEAD /aws.config.js HTTP/1.0" 404 0
+Not Found: /aws.credentials.js
+[11/Dec/2024 20:52:16] "HEAD /aws.credentials.js HTTP/1.0" 404 0
+Not Found: /aws.keys.js
+[11/Dec/2024 20:52:16] "HEAD /aws.keys.js HTTP/1.0" 404 0
+Not Found: /aws_config.js
+[11/Dec/2024 20:52:20] "HEAD /aws_config.js HTTP/1.0" 404 0
+Not Found: /aws_credentials.js
+[11/Dec/2024 20:52:20] "HEAD /aws_credentials.js HTTP/1.0" 404 0
+Not Found: /aws_keys.js
+[11/Dec/2024 20:52:21] "HEAD /aws_keys.js HTTP/1.0" 404 0
+Not Found: /config/aws.js
+[11/Dec/2024 20:52:22] "HEAD /config/aws.js HTTP/1.0" 404 0
+Not Found: /config/credentials.js
+[11/Dec/2024 20:52:23] "HEAD /config/credentials.js HTTP/1.0" 404 0
+Not Found: /config/secrets.js
+[11/Dec/2024 20:52:23] "HEAD /config/secrets.js HTTP/1.0" 404 0
+Not Found: /config/keys.js
+[11/Dec/2024 20:52:23] "HEAD /config/keys.js HTTP/1.0" 404 0
+Not Found: /settings/aws.js
+[11/Dec/2024 20:52:24] "HEAD /settings/aws.js HTTP/1.0" 404 0
+Not Found: /settings/credentials.js
+[11/Dec/2024 20:52:24] "HEAD /settings/credentials.js HTTP/1.0" 404 0
+Not Found: /settings/secrets.js
+[11/Dec/2024 20:52:25] "HEAD /settings/secrets.js HTTP/1.0" 404 0
+Not Found: /settings/keys.js
+[11/Dec/2024 20:52:25] "HEAD /settings/keys.js HTTP/1.0" 404 0
+Not Found: /auth/config.js
+[11/Dec/2024 20:52:25] "HEAD /auth/config.js HTTP/1.0" 404 0
+Not Found: /auth/credentials.js
+[11/Dec/2024 20:52:26] "HEAD /auth/credentials.js HTTP/1.0" 404 0
+Not Found: /auth/keys.js
+[11/Dec/2024 20:52:36] "HEAD /auth/keys.js HTTP/1.0" 404 0
+Not Found: /auth/secrets.js
+[11/Dec/2024 20:52:36] "HEAD /auth/secrets.js HTTP/1.0" 404 0
+Not Found: /api/config.js
+[11/Dec/2024 20:52:37] "HEAD /api/config.js HTTP/1.0" 404 0
+Not Found: /api/credentials.js 
+[11/Dec/2024 20:52:38] "HEAD /api/credentials.js%20 HTTP/1.0" 404 0
+Not Found: /api/keys.js
+[11/Dec/2024 20:52:40] "HEAD /api/keys.js HTTP/1.0" 404 0
+Not Found: /api/secrets.js
+[11/Dec/2024 20:52:41] "HEAD /api/secrets.js HTTP/1.0" 404 0
+Not Found: /core/config.js
+[11/Dec/2024 20:52:41] "HEAD /core/config.js HTTP/1.0" 404 0
+Not Found: /core/credentials.js
+[11/Dec/2024 20:52:42] "HEAD /core/credentials.js HTTP/1.0" 404 0
+Not Found: /core/keys.js
+[11/Dec/2024 20:52:42] "HEAD /core/keys.js HTTP/1.0" 404 0
+Not Found: /core/secrets.js
+[11/Dec/2024 20:52:42] "HEAD /core/secrets.js HTTP/1.0" 404 0
+Not Found: /src/config.js
+[11/Dec/2024 20:52:43] "HEAD /src/config.js HTTP/1.0" 404 0
+Not Found: /src/credentials.js
+[11/Dec/2024 20:52:43] "HEAD /src/credentials.js HTTP/1.0" 404 0
+Not Found: /src/keys.js
+[11/Dec/2024 20:52:44] "HEAD /src/keys.js HTTP/1.0" 404 0
+Not Found: /src/secrets.js
+[11/Dec/2024 20:52:44] "HEAD /src/secrets.js HTTP/1.0" 404 0
+Not Found: /js/config.js
+[11/Dec/2024 20:52:47] "HEAD /js/config.js HTTP/1.0" 404 0
+Not Found: /js/credentials.js
+[11/Dec/2024 20:52:47] "HEAD /js/credentials.js HTTP/1.0" 404 0
+Not Found: /js/keys.js
+[11/Dec/2024 20:52:47] "HEAD /js/keys.js HTTP/1.0" 404 0
+Not Found: /assets/config.js
+[11/Dec/2024 20:52:58] "HEAD /assets/config.js HTTP/1.0" 404 0
+Not Found: /assets/credentials.js
+[11/Dec/2024 20:52:58] "HEAD /assets/credentials.js HTTP/1.0" 404 0
+Not Found: /assets/keys.js
+[11/Dec/2024 20:52:59] "HEAD /assets/keys.js HTTP/1.0" 404 0
+Not Found: /assets/secrets.js
+[11/Dec/2024 20:52:59] "HEAD /assets/secrets.js HTTP/1.0" 404 0
+Not Found: /utils/aws.js
+[11/Dec/2024 20:53:01] "HEAD /utils/aws.js HTTP/1.0" 404 0
+Not Found: /utils/config.js 
+[11/Dec/2024 20:53:01] "HEAD /utils/config.js%20 HTTP/1.0" 404 0
+Not Found: /utils/credentials.js
+[11/Dec/2024 20:53:02] "HEAD /utils/credentials.js HTTP/1.0" 404 0
+Not Found: /utils/keys.js
+[11/Dec/2024 20:53:02] "HEAD /utils/keys.js HTTP/1.0" 404 0
+Not Found: /lib/aws.js
+[11/Dec/2024 20:53:13] "HEAD /lib/aws.js HTTP/1.0" 404 0
+Not Found: /lib/credentials.js
+[11/Dec/2024 20:53:23] "HEAD /lib/credentials.js HTTP/1.0" 404 0
+Not Found: /lib/keys.js
+[11/Dec/2024 20:53:24] "HEAD /lib/keys.js HTTP/1.0" 404 0
+Not Found: /lib/secrets.js
+[11/Dec/2024 20:53:27] "HEAD /lib/secrets.js HTTP/1.0" 404 0
+Not Found: /services/config.js
+[11/Dec/2024 20:53:38] "HEAD /services/config.js HTTP/1.0" 404 0
+Not Found: /services/credentials.js
+[11/Dec/2024 20:53:38] "HEAD /services/credentials.js HTTP/1.0" 404 0
+Not Found: /services/keys.js
+[11/Dec/2024 20:53:38] "HEAD /services/keys.js HTTP/1.0" 404 0
+Not Found: /modules/aws.js
+[11/Dec/2024 20:53:39] "HEAD /modules/aws.js HTTP/1.0" 404 0
+Not Found: /modules/config.js
+[11/Dec/2024 20:53:39] "HEAD /modules/config.js HTTP/1.0" 404 0
+Not Found: /modules/credentials.js
+[11/Dec/2024 20:53:40] "HEAD /modules/credentials.js HTTP/1.0" 404 0
+Not Found: /modules/keys.js
+[11/Dec/2024 20:53:40] "HEAD /modules/keys.js HTTP/1.0" 404 0
+Not Found: /constants/aws.js
+[11/Dec/2024 20:53:40] "HEAD /constants/aws.js HTTP/1.0" 404 0
+Not Found: /constants/config.js
+[11/Dec/2024 20:53:41] "HEAD /constants/config.js HTTP/1.0" 404 0
+Not Found: /constants/keys.js
+[11/Dec/2024 20:53:52] "HEAD /constants/keys.js HTTP/1.0" 404 0
+Not Found: /shared/aws.js
+[11/Dec/2024 20:53:53] "HEAD /shared/aws.js HTTP/1.0" 404 0
+Not Found: /shared/config.js
+[11/Dec/2024 20:53:53] "HEAD /shared/config.js HTTP/1.0" 404 0
+Not Found: /shared/credentials.js
+[11/Dec/2024 20:53:54] "HEAD /shared/credentials.js HTTP/1.0" 404 0
+Not Found: /common/aws.js
+[11/Dec/2024 20:54:04] "HEAD /common/aws.js HTTP/1.0" 404 0
+Not Found: /common/config.js
+[11/Dec/2024 20:54:05] "HEAD /common/config.js HTTP/1.0" 404 0
+Not Found: /common/credentials.js
+[11/Dec/2024 20:54:08] "HEAD /common/credentials.js HTTP/1.0" 404 0
+Not Found: /common/keys.js
+[11/Dec/2024 20:54:08] "HEAD /common/keys.js HTTP/1.0" 404 0
+Not Found: /_aws.js
+[11/Dec/2024 20:54:09] "HEAD /_aws.js HTTP/1.0" 404 0
+Not Found: /_config.js
+[11/Dec/2024 20:54:09] "HEAD /_config.js HTTP/1.0" 404 0
+Not Found: /_credentials.js
+[11/Dec/2024 20:54:10] "HEAD /_credentials.js HTTP/1.0" 404 0
+Not Found: /_keys.js
+[11/Dec/2024 20:54:10] "HEAD /_keys.js HTTP/1.0" 404 0
+Not Found: /aws_.js
+[11/Dec/2024 20:54:10] "HEAD /aws_.js HTTP/1.0" 404 0
+Not Found: /config_.js
+[11/Dec/2024 20:54:11] "HEAD /config_.js HTTP/1.0" 404 0
+Not Found: /wp-config.php
+[11/Dec/2024 20:54:11] "HEAD /wp-config.php HTTP/1.0" 404 0
+Not Found: /wp-config.inc.php
+[11/Dec/2024 20:54:11] "HEAD /wp-config.inc.php HTTP/1.0" 404 0
+Not Found: /wp-config.old.php
+[11/Dec/2024 20:54:12] "HEAD /wp-config.old.php HTTP/1.0" 404 0
+Not Found: /wp-config.bak.php
+[11/Dec/2024 20:54:12] "HEAD /wp-config.bak.php HTTP/1.0" 404 0
+Not Found: /wp-config.php.bak
+[11/Dec/2024 20:54:13] "HEAD /wp-config.php.bak HTTP/1.0" 404 0
+Not Found: /wp-config.php.old
+[11/Dec/2024 20:54:15] "HEAD /wp-config.php.old HTTP/1.0" 404 0
+Not Found: /wp-config.php.save
+[11/Dec/2024 20:54:17] "HEAD /wp-config.php.save HTTP/1.0" 404 0
+Not Found: /wp-config.php.orig
+[11/Dec/2024 20:54:17] "HEAD /wp-config.php.orig HTTP/1.0" 404 0
+Not Found: /wp-config.php.original
+[11/Dec/2024 20:54:18] "HEAD /wp-config.php.original HTTP/1.0" 404 0
+Not Found: /wp-config.php~
+[11/Dec/2024 20:54:18] "HEAD /wp-config.php~ HTTP/1.0" 404 0
+Not Found: /wp-config.php.txt
+[11/Dec/2024 20:54:19] "HEAD /wp-config.php.txt HTTP/1.0" 404 0
+Not Found: /wp-config.txt
+[11/Dec/2024 20:54:20] "HEAD /wp-config.txt HTTP/1.0" 404 0
+Not Found: /wp-config.php.tmp
+[11/Dec/2024 20:54:20] "HEAD /wp-config.php.tmp HTTP/1.0" 404 0
+Not Found: /wp-config.tmp
+[11/Dec/2024 20:54:21] "HEAD /wp-config.tmp HTTP/1.0" 404 0
+Not Found: /wp-config.php.temp
+[11/Dec/2024 20:54:21] "HEAD /wp-config.php.temp HTTP/1.0" 404 0
+Not Found: /wp-config.temp
+[11/Dec/2024 20:54:22] "HEAD /wp-config.temp HTTP/1.0" 404 0
+Not Found: /wordpress/wp-config.php
+[11/Dec/2024 20:54:22] "HEAD /wordpress/wp-config.php HTTP/1.0" 404 0
+Not Found: /wordpress/wp-config.bak
+[11/Dec/2024 20:54:22] "HEAD /wordpress/wp-config.bak HTTP/1.0" 404 0
+Not Found: /wordpress/wp-config.old
+[11/Dec/2024 20:54:23] "HEAD /wordpress/wp-config.old HTTP/1.0" 404 0
+Not Found: /wp/wp-config.php
+[11/Dec/2024 20:54:23] "HEAD /wp/wp-config.php HTTP/1.0" 404 0
+Not Found: /wp/wp-config.bak
+[11/Dec/2024 20:54:24] "HEAD /wp/wp-config.bak HTTP/1.0" 404 0
+Not Found: /wp/wp-config.old
+[11/Dec/2024 20:54:24] "HEAD /wp/wp-config.old HTTP/1.0" 404 0
+Not Found: /blog/wp-config.php
+[11/Dec/2024 20:54:24] "HEAD /blog/wp-config.php HTTP/1.0" 404 0
+Not Found: /blog/wp-config.bak
+[11/Dec/2024 20:54:25] "HEAD /blog/wp-config.bak HTTP/1.0" 404 0
+Not Found: /blog/wp-config.old
+[11/Dec/2024 20:54:25] "HEAD /blog/wp-config.old HTTP/1.0" 404 0
+Not Found: /config.old
+[11/Dec/2024 20:54:36] "HEAD /config.old HTTP/1.0" 404 0
+Not Found: /web/wp-config.php
+[11/Dec/2024 20:54:36] "HEAD /web/wp-config.php HTTP/1.0" 404 0
+Not Found: /web/wp-config.bak
+[11/Dec/2024 20:54:37] "HEAD /web/wp-config.bak HTTP/1.0" 404 0
+Not Found: /web/wp-config.old
+[11/Dec/2024 20:54:37] "HEAD /web/wp-config.old HTTP/1.0" 404 0
+Not Found: /website/wp-config.php 
+[11/Dec/2024 20:54:39] "HEAD /website/wp-config.php%20 HTTP/1.0" 404 0
+Not Found: /website/wp-config.bak
+[11/Dec/2024 20:54:39] "HEAD /website/wp-config.bak HTTP/1.0" 404 0
+Not Found: /website/wp-config.old
+[11/Dec/2024 20:54:39] "HEAD /website/wp-config.old HTTP/1.0" 404 0
+Not Found: /public_html/wp-config.php
+[11/Dec/2024 20:54:43] "HEAD /public_html/wp-config.php HTTP/1.0" 404 0
+Not Found: /public_html/wp-config.bak
+[11/Dec/2024 20:54:43] "HEAD /public_html/wp-config.bak HTTP/1.0" 404 0
+Not Found: /public_html/wp-config.old
+[11/Dec/2024 20:54:44] "HEAD /public_html/wp-config.old HTTP/1.0" 404 0
+Not Found: /wp-config-sample.php
+[11/Dec/2024 20:54:44] "HEAD /wp-config-sample.php HTTP/1.0" 404 0
+Not Found: /wp-config.php.dist
+[11/Dec/2024 20:54:44] "HEAD /wp-config.php.dist HTTP/1.0" 404 0
+Not Found: /wp-config.php.default
+[11/Dec/2024 20:54:45] "HEAD /wp-config.php.default HTTP/1.0" 404 0
+Not Found: /wp-config.php.example
+[11/Dec/2024 20:54:45] "HEAD /wp-config.php.example HTTP/1.0" 404 0
+Not Found: /backup-wp-config.php
+[11/Dec/2024 20:54:46] "HEAD /backup-wp-config.php HTTP/1.0" 404 0
+Not Found: /wp-config-backup.php
+[11/Dec/2024 20:54:46] "HEAD /wp-config-backup.php HTTP/1.0" 404 0
+Not Found: /wp-config.php.backup
+[11/Dec/2024 20:54:47] "HEAD /wp-config.php.backup HTTP/1.0" 404 0
+Not Found: /test-wp-config.php
+[11/Dec/2024 20:54:47] "HEAD /test-wp-config.php HTTP/1.0" 404 0
+Not Found: /wp-config-test.php
+[11/Dec/2024 20:54:48] "HEAD /wp-config-test.php HTTP/1.0" 404 0
+Not Found: /dev-wp-config.php
+[11/Dec/2024 20:54:48] "HEAD /dev-wp-config.php HTTP/1.0" 404 0
+Not Found: /wp-config-dev.php
+[11/Dec/2024 20:54:48] "HEAD /wp-config-dev.php HTTP/1.0" 404 0
+Not Found: /local-wp-config.php
+[11/Dec/2024 20:54:49] "HEAD /local-wp-config.php HTTP/1.0" 404 0
+Not Found: /wp-config-local.php
+[11/Dec/2024 20:54:49] "HEAD /wp-config-local.php HTTP/1.0" 404 0
+Not Found: /staging-wp-config.php
+[11/Dec/2024 20:54:49] "HEAD /staging-wp-config.php HTTP/1.0" 404 0
+Not Found: /wp-config-staging.php
+[11/Dec/2024 20:54:50] "HEAD /wp-config-staging.php HTTP/1.0" 404 0
+Not Found: /prod-wp-config.php
+[11/Dec/2024 20:54:50] "HEAD /prod-wp-config.php HTTP/1.0" 404 0
+Not Found: /wp-config-prod.php
+[11/Dec/2024 20:54:51] "HEAD /wp-config-prod.php HTTP/1.0" 404 0
+Not Found: /_wp-config.php
+[11/Dec/2024 20:54:53] "HEAD /_wp-config.php HTTP/1.0" 404 0
+Not Found: /.wp-config.php
+[11/Dec/2024 20:54:54] "HEAD /.wp-config.php HTTP/1.0" 404 0
+Not Found: /.wp-config.php.swp
+[11/Dec/2024 20:54:54] "HEAD /.wp-config.php.swp HTTP/1.0" 404 0
+Not Found: /wp-config.inc
+[11/Dec/2024 20:54:55] "HEAD /wp-config.inc HTTP/1.0" 404 0
+Not Found: /wp-config.inc.bak
+[11/Dec/2024 20:54:55] "HEAD /wp-config.inc.bak HTTP/1.0" 404 0
+Not Found: /wp-config.inc.old
+[11/Dec/2024 20:54:55] "HEAD /wp-config.inc.old HTTP/1.0" 404 0
+Not Found: /wp-config.ini
+[11/Dec/2024 20:54:56] "HEAD /wp-config.ini HTTP/1.0" 404 0
+Not Found: /wp-config.conf
+[11/Dec/2024 20:54:56] "HEAD /wp-config.conf HTTP/1.0" 404 0
+Not Found: /wp-root.php
+[11/Dec/2024 20:54:57] "HEAD /wp-root.php HTTP/1.0" 404 0
+Not Found: /dev/wp-config.php
+[11/Dec/2024 20:55:07] "HEAD /dev/wp-config.php HTTP/1.0" 404 0
+Not Found: /dev/config.php
+[11/Dec/2024 20:55:07] "HEAD /dev/config.php HTTP/1.0" 404 0
+Not Found: /development/wp-config.php
+[11/Dec/2024 20:55:08] "HEAD /development/wp-config.php HTTP/1.0" 404 0
+Not Found: /staging/wp-config.php
+[11/Dec/2024 20:55:08] "HEAD /staging/wp-config.php HTTP/1.0" 404 0
+Not Found: /production/wp-config.php
+[11/Dec/2024 20:55:09] "HEAD /production/wp-config.php HTTP/1.0" 404 0
+Not Found: /wp-config.local
+[11/Dec/2024 20:55:09] "HEAD /wp-config.local HTTP/1.0" 404 0
+Not Found: /wp-config.dev
+[11/Dec/2024 20:55:09] "HEAD /wp-config.dev HTTP/1.0" 404 0
+Not Found: /wp-config.development
+[11/Dec/2024 20:55:10] "HEAD /wp-config.development HTTP/1.0" 404 0
+Not Found: /wp-config.test
+[11/Dec/2024 20:55:10] "HEAD /wp-config.test HTTP/1.0" 404 0
+Not Found: /wp-config.prod
+[11/Dec/2024 20:55:10] "HEAD /wp-config.prod HTTP/1.0" 404 0
+Not Found: /wp-config.production
+[11/Dec/2024 20:55:11] "HEAD /wp-config.production HTTP/1.0" 404 0
+Not Found: /wp-config.staging
+[11/Dec/2024 20:55:11] "HEAD /wp-config.staging HTTP/1.0" 404 0
+Not Found: /credentials_.js
+[11/Dec/2024 20:55:12] "HEAD /credentials_.js HTTP/1.0" 404 0
+Not Found: /keys_.js
+[11/Dec/2024 20:55:13] "HEAD /keys_.js HTTP/1.0" 404 0
+Not Found: /env.aws.js
+[11/Dec/2024 20:55:14] "HEAD /env.aws.js HTTP/1.0" 404 0
+Not Found: /env.config.js
+[11/Dec/2024 20:55:14] "HEAD /env.config.js HTTP/1.0" 404 0
+Not Found: /env.credentials.js
+[11/Dec/2024 20:55:15] "HEAD /env.credentials.js HTTP/1.0" 404 0
+Not Found: /env.keys.js
+[11/Dec/2024 20:55:15] "HEAD /env.keys.js HTTP/1.0" 404 0
+Not Found: /aboutphp.php
+[11/Dec/2024 20:55:15] "HEAD /aboutphp.php HTTP/1.0" 404 0
+Not Found: /about.php
+[11/Dec/2024 20:55:16] "HEAD /about.php HTTP/1.0" 404 0
+Not Found: /about-php.php
+[11/Dec/2024 20:55:16] "HEAD /about-php.php HTTP/1.0" 404 0
+Not Found: /php-test.php
+[11/Dec/2024 20:55:16] "HEAD /php-test.php HTTP/1.0" 404 0
+Not Found: /test-php.php
+[11/Dec/2024 20:55:17] "HEAD /test-php.php HTTP/1.0" 404 0
+Not Found: /php.info
+[11/Dec/2024 20:55:27] "HEAD /php.info HTTP/1.0" 404 0
+Not Found: /php_info
+[11/Dec/2024 20:55:27] "HEAD /php_info HTTP/1.0" 404 0
+Not Found: /php-info
+[11/Dec/2024 20:55:28] "HEAD /php-info HTTP/1.0" 404 0
+Not Found: /info-php
+[11/Dec/2024 20:55:28] "HEAD /info-php HTTP/1.0" 404 0
+Not Found: /php_test
+[11/Dec/2024 20:55:28] "HEAD /php_test HTTP/1.0" 404 0
+Not Found: /test_php
+[11/Dec/2024 20:55:30] "HEAD /test_php HTTP/1.0" 404 0
+Not Found: /check.php
+[11/Dec/2024 20:55:30] "HEAD /check.php HTTP/1.0" 404 0
+Not Found: /checkphp.php
+[11/Dec/2024 20:55:31] "HEAD /checkphp.php HTTP/1.0" 404 0
+Not Found: /php-check.php
+[11/Dec/2024 20:55:31] "HEAD /php-check.php HTTP/1.0" 404 0
+Not Found: /phpcheck.php
+[11/Dec/2024 20:55:31] "HEAD /phpcheck.php HTTP/1.0" 404 0
+Not Found: /infophp.php
+[11/Dec/2024 20:55:32] "HEAD /infophp.php HTTP/1.0" 404 0
+Not Found: /php-infos.php
+[11/Dec/2024 20:55:32] "HEAD /php-infos.php HTTP/1.0" 404 0
+Not Found: /infos.php
+[11/Dec/2024 20:55:33] "HEAD /infos.php HTTP/1.0" 404 0
+Not Found: /phpversion
+[11/Dec/2024 20:55:33] "HEAD /phpversion HTTP/1.0" 404 0
+Not Found: /version
+[11/Dec/2024 20:55:33] "HEAD /version HTTP/1.0" 404 0
+Not Found: /ver
+[11/Dec/2024 20:55:34] "HEAD /ver HTTP/1.0" 404 0
+Not Found: /v.php
+[11/Dec/2024 20:55:34] "HEAD /v.php HTTP/1.0" 404 0
+Not Found: /v1.php
+[11/Dec/2024 20:55:36] "HEAD /v1.php HTTP/1.0" 404 0
+Not Found: /v2.php
+[11/Dec/2024 20:55:36] "HEAD /v2.php HTTP/1.0" 404 0
+Not Found: /v3.php
+[11/Dec/2024 20:55:36] "HEAD /v3.php HTTP/1.0" 404 0
+Not Found: /server.php
+[11/Dec/2024 20:55:37] "HEAD /server.php HTTP/1.0" 404 0
+Not Found: /server-info.php
+[11/Dec/2024 20:55:37] "HEAD /server-info.php HTTP/1.0" 404 0
+Not Found: /server-version.php
+[11/Dec/2024 20:55:38] "HEAD /server-version.php HTTP/1.0" 404 0
+Not Found: /serverinfo.php
+[11/Dec/2024 20:55:38] "HEAD /serverinfo.php HTTP/1.0" 404 0
+Not Found: /status.php
+[11/Dec/2024 20:55:38] "HEAD /status.php HTTP/1.0" 404 0
+Not Found: /stat.php
+[11/Dec/2024 20:55:39] "HEAD /stat.php HTTP/1.0" 404 0
+Not Found: /stats.php
+[11/Dec/2024 20:55:39] "HEAD /stats.php HTTP/1.0" 404 0
+Not Found: /phpstat.php
+[11/Dec/2024 20:55:40] "HEAD /phpstat.php HTTP/1.0" 404 0
+Not Found: /php-stat.php
+[11/Dec/2024 20:55:40] "HEAD /php-stat.php HTTP/1.0" 404 0
+Not Found: /sysinfo.php
+[11/Dec/2024 20:55:40] "HEAD /sysinfo.php HTTP/1.0" 404 0
+Not Found: /sys.php
+[11/Dec/2024 20:55:41] "HEAD /sys.php HTTP/1.0" 404 0
+Not Found: /system.php
+[11/Dec/2024 20:55:41] "HEAD /system.php HTTP/1.0" 404 0
+Not Found: /debugging.php
+[11/Dec/2024 20:55:42] "HEAD /debugging.php HTTP/1.0" 404 0
+Not Found: /debug.php
+[11/Dec/2024 20:55:42] "HEAD /debug.php HTTP/1.0" 404 0
+Not Found: /dev.php
+[11/Dec/2024 20:55:42] "HEAD /dev.php HTTP/1.0" 404 0
+Not Found: /devel.php
+[11/Dec/2024 20:55:43] "HEAD /devel.php HTTP/1.0" 404 0
+Not Found: /develop.php 
+[11/Dec/2024 20:55:43] "HEAD /develop.php%20 HTTP/1.0" 404 0
+Not Found: /test-debug.php
+[11/Dec/2024 20:55:44] "HEAD /test-debug.php HTTP/1.0" 404 0
+Not Found: /testinfo.php
+[11/Dec/2024 20:55:44] "HEAD /testinfo.php HTTP/1.0" 404 0
+Not Found: /testing.php
+[11/Dec/2024 20:55:44] "HEAD /testing.php HTTP/1.0" 404 0
+Not Found: /test-page.php
+[11/Dec/2024 20:55:45] "HEAD /test-page.php HTTP/1.0" 404 0
+Not Found: /test_page.php
+[11/Dec/2024 20:55:45] "HEAD /test_page.php HTTP/1.0" 404 0
+Not Found: /info_php.php
+[11/Dec/2024 20:55:45] "HEAD /info_php.php HTTP/1.0" 404 0
+Not Found: /infor.php
+[11/Dec/2024 20:55:46] "HEAD /infor.php HTTP/1.0" 404 0
+Not Found: /information.php
+[11/Dec/2024 20:55:46] "HEAD /information.php HTTP/1.0" 404 0
+Not Found: /php_information.php
+[11/Dec/2024 20:55:47] "HEAD /php_information.php HTTP/1.0" 404 0
+Not Found: /info_server.php
+[11/Dec/2024 20:55:47] "HEAD /info_server.php HTTP/1.0" 404 0
+Not Found: /server_info.php
+[11/Dec/2024 20:55:47] "HEAD /server_info.php HTTP/1.0" 404 0
+Not Found: /tmp.php
+[11/Dec/2024 20:55:48] "HEAD /tmp.php HTTP/1.0" 404 0
+Not Found: /temp.php
+[11/Dec/2024 20:55:48] "HEAD /temp.php HTTP/1.0" 404 0
+Not Found: /tmp/info.php
+[11/Dec/2024 20:55:50] "HEAD /tmp/info.php HTTP/1.0" 404 0
+Not Found: /temp/info.php
+[11/Dec/2024 20:55:50] "HEAD /temp/info.php HTTP/1.0" 404 0
+Not Found: /test/info.php
+[11/Dec/2024 20:55:51] "HEAD /test/info.php HTTP/1.0" 404 0
+Not Found: /test/phpinfo.php
+[11/Dec/2024 20:55:51] "HEAD /test/phpinfo.php HTTP/1.0" 404 0
+Not Found: /tests/info.php
+[11/Dec/2024 20:55:51] "HEAD /tests/info.php HTTP/1.0" 404 0
+Not Found: /tests/phpinfo.php
+[11/Dec/2024 20:55:52] "HEAD /tests/phpinfo.php HTTP/1.0" 404 0
+[11/Dec/2024 20:55:52] "HEAD /admin/info.php HTTP/1.0" 302 0
+[11/Dec/2024 20:55:53] "HEAD /admin/phpinfo.php HTTP/1.0" 302 0
+[11/Dec/2024 20:55:53] "HEAD /admin/php_info.php HTTP/1.0" 302 0
+[11/Dec/2024 20:55:53] "HEAD /admin/php-info.php HTTP/1.0" 302 0
+Not Found: /administrator/info.php
+[11/Dec/2024 20:55:54] "HEAD /administrator/info.php HTTP/1.0" 404 0
+Not Found: /administrator/phpinfo.php
+[11/Dec/2024 20:55:54] "HEAD /administrator/phpinfo.php HTTP/1.0" 404 0
+Not Found: /php/info.php
+[11/Dec/2024 20:55:55] "HEAD /php/info.php HTTP/1.0" 404 0
+Not Found: /php/phpinfo.php
+[11/Dec/2024 20:55:58] "HEAD /php/phpinfo.php HTTP/1.0" 404 0
+Not Found: /site/info.php
+[11/Dec/2024 20:55:58] "HEAD /site/info.php HTTP/1.0" 404 0
+Not Found: /site/phpinfo.php
+[11/Dec/2024 20:55:59] "HEAD /site/phpinfo.php HTTP/1.0" 404 0
+Not Found: /sites/info.php
+[11/Dec/2024 20:56:02] "HEAD /sites/info.php HTTP/1.0" 404 0
+Not Found: /sites/phpinfo.php
+[11/Dec/2024 20:56:03] "HEAD /sites/phpinfo.php HTTP/1.0" 404 0
+Not Found: /blog/info.php
+[11/Dec/2024 20:56:03] "HEAD /blog/info.php HTTP/1.0" 404 0
+Not Found: /blog/phpinfo.php
+[11/Dec/2024 20:56:03] "HEAD /blog/phpinfo.php HTTP/1.0" 404 0
+Not Found: /blogs/info.php
+[11/Dec/2024 20:56:04] "HEAD /blogs/info.php HTTP/1.0" 404 0
+Not Found: /blogs/phpinfo.php
+[11/Dec/2024 20:56:04] "HEAD /blogs/phpinfo.php HTTP/1.0" 404 0
+Not Found: /zz.php
+[11/Dec/2024 20:56:05] "HEAD /zz.php HTTP/1.0" 404 0
+Not Found: /z.php
+[11/Dec/2024 20:56:05] "HEAD /z.php HTTP/1.0" 404 0
+Not Found: /test.asp
+[11/Dec/2024 20:56:06] "HEAD /test.asp HTTP/1.0" 404 0
+Not Found: /test.aspx
+[11/Dec/2024 20:56:07] "HEAD /test.aspx HTTP/1.0" 404 0
+Not Found: /phpinfo.asp
+[11/Dec/2024 20:56:12] "HEAD /phpinfo.asp HTTP/1.0" 404 0
+Not Found: /info.asp
+[11/Dec/2024 20:56:23] "HEAD /info.asp HTTP/1.0" 404 0
+Not Found: /info.aspx
+[11/Dec/2024 20:56:23] "HEAD /info.aspx HTTP/1.0" 404 0
+Not Found: /php_info.asp
+[11/Dec/2024 20:56:24] "HEAD /php_info.asp HTTP/1.0" 404 0
+Not Found: /php_info.aspx
+[11/Dec/2024 20:56:24] "HEAD /php_info.aspx HTTP/1.0" 404 0
+Not Found: /1.php
+[11/Dec/2024 20:56:24] "HEAD /1.php HTTP/1.0" 404 0
+Not Found: /2.php
+[11/Dec/2024 20:56:25] "HEAD /2.php HTTP/1.0" 404 0
+Not Found: /3.php
+[11/Dec/2024 20:56:26] "HEAD /3.php HTTP/1.0" 404 0
+Not Found: /a.php
+[11/Dec/2024 20:56:26] "HEAD /a.php HTTP/1.0" 404 0
+Not Found: /s3/config
+[11/Dec/2024 20:56:27] "HEAD /s3/config HTTP/1.0" 404 0
+Not Found: /s3/credentials
+[11/Dec/2024 20:56:27] "HEAD /s3/credentials HTTP/1.0" 404 0
+Not Found: /s3/settings
+[11/Dec/2024 20:56:28] "HEAD /s3/settings HTTP/1.0" 404 0
+Not Found: /s3/keys
+[11/Dec/2024 20:56:28] "HEAD /s3/keys HTTP/1.0" 404 0
+Not Found: /s3/access
+[11/Dec/2024 20:56:29] "HEAD /s3/access HTTP/1.0" 404 0
+Not Found: /s3/secret
+[11/Dec/2024 20:56:30] "HEAD /s3/secret HTTP/1.0" 404 0
+Not Found: /s3/bucket
+[11/Dec/2024 20:56:30] "HEAD /s3/bucket HTTP/1.0" 404 0
+Not Found: /s3.config
+[11/Dec/2024 20:56:31] "HEAD /s3.config HTTP/1.0" 404 0
+Not Found: /s3.credentials
+[11/Dec/2024 20:56:31] "HEAD /s3.credentials HTTP/1.0" 404 0
+Not Found: /s3.settings
+[11/Dec/2024 20:56:34] "HEAD /s3.settings HTTP/1.0" 404 0
+Not Found: /s3.json
+[11/Dec/2024 20:56:35] "HEAD /s3.json HTTP/1.0" 404 0
+Not Found: /s3.yml
+[11/Dec/2024 20:56:35] "HEAD /s3.yml HTTP/1.0" 404 0
+Not Found: /s3.yaml
+[11/Dec/2024 20:56:36] "HEAD /s3.yaml HTTP/1.0" 404 0
+Not Found: /s3.ini
+[11/Dec/2024 20:56:36] "HEAD /s3.ini HTTP/1.0" 404 0
+Not Found: /config.yaml
+[11/Dec/2024 20:56:39] "HEAD /config.yaml HTTP/1.0" 404 0
+Not Found: /app.yaml
+[11/Dec/2024 20:56:41] "HEAD /app.yaml HTTP/1.0" 404 0
+Not Found: /settings.yaml
+[11/Dec/2024 20:56:42] "HEAD /settings.yaml HTTP/1.0" 404 0
+Not Found: /database.yaml
+[11/Dec/2024 20:56:43] "HEAD /database.yaml HTTP/1.0" 404 0
+Not Found: /db.yaml
+[11/Dec/2024 20:56:44] "HEAD /db.yaml HTTP/1.0" 404 0
+Not Found: /server.yaml
+[11/Dec/2024 20:56:45] "HEAD /server.yaml HTTP/1.0" 404 0
+Not Found: /api.yaml
+[11/Dec/2024 20:56:45] "HEAD /api.yaml HTTP/1.0" 404 0
+Not Found: /auth.yaml
+[11/Dec/2024 20:56:50] "HEAD /auth.yaml HTTP/1.0" 404 0
+Not Found: /credentials.yaml
+[11/Dec/2024 20:56:52] "HEAD /credentials.yaml HTTP/1.0" 404 0
+Not Found: /secrets.yaml
+[11/Dec/2024 20:56:52] "HEAD /secrets.yaml HTTP/1.0" 404 0
+Not Found: /security.yaml
+[11/Dec/2024 20:56:55] "HEAD /security.yaml HTTP/1.0" 404 0
+Not Found: /mail.yaml
+[11/Dec/2024 20:56:56] "HEAD /mail.yaml HTTP/1.0" 404 0
+Not Found: /smtp.yaml
+[11/Dec/2024 20:56:56] "HEAD /smtp.yaml HTTP/1.0" 404 0
+Not Found: /aws.yaml
+[11/Dec/2024 20:56:57] "HEAD /aws.yaml HTTP/1.0" 404 0
+Not Found: /cloud.yaml
+[11/Dec/2024 20:56:57] "HEAD /cloud.yaml HTTP/1.0" 404 0
+Not Found: /cache.yaml
+[11/Dec/2024 20:56:57] "HEAD /cache.yaml HTTP/1.0" 404 0
+Not Found: /session.yaml
+[11/Dec/2024 20:56:58] "HEAD /session.yaml HTTP/1.0" 404 0
+Not Found: /storage.yaml
+[11/Dec/2024 20:56:58] "HEAD /storage.yaml HTTP/1.0" 404 0
+Not Found: /logging.yaml
+[11/Dec/2024 20:56:59] "HEAD /logging.yaml HTTP/1.0" 404 0
+Not Found: /backup.yaml
+[11/Dec/2024 20:56:59] "HEAD /backup.yaml HTTP/1.0" 404 0
+Not Found: /dev.yaml
+[11/Dec/2024 20:56:59] "HEAD /dev.yaml HTTP/1.0" 404 0
+Not Found: /prod.yaml
+[11/Dec/2024 20:57:00] "HEAD /prod.yaml HTTP/1.0" 404 0
+Not Found: /staging.yaml
+[11/Dec/2024 20:57:00] "HEAD /staging.yaml HTTP/1.0" 404 0
+Not Found: /test.yaml
+[11/Dec/2024 20:57:01] "HEAD /test.yaml HTTP/1.0" 404 0
+Not Found: /local.yaml
+[11/Dec/2024 20:57:01] "HEAD /local.yaml HTTP/1.0" 404 0
+Not Found: /config.yml
+[11/Dec/2024 20:57:01] "HEAD /config.yml HTTP/1.0" 404 0
+Not Found: /app.yml
+[11/Dec/2024 20:57:02] "HEAD /app.yml HTTP/1.0" 404 0
+Not Found: /database.yml
+[11/Dec/2024 20:57:12] "HEAD /database.yml HTTP/1.0" 404 0
+Not Found: /db.yml
+[11/Dec/2024 20:57:13] "HEAD /db.yml HTTP/1.0" 404 0
+Not Found: /server.yml
+[11/Dec/2024 20:57:16] "HEAD /server.yml HTTP/1.0" 404 0
+Not Found: /api.yml
+[11/Dec/2024 20:57:16] "HEAD /api.yml HTTP/1.0" 404 0
+Not Found: /auth.yml
+[11/Dec/2024 20:57:17] "HEAD /auth.yml HTTP/1.0" 404 0
+Not Found: /credentials.yml
+[11/Dec/2024 20:57:17] "HEAD /credentials.yml HTTP/1.0" 404 0
+Not Found: /secrets.yml
+[11/Dec/2024 20:57:18] "HEAD /secrets.yml HTTP/1.0" 404 0
+Not Found: /security.yml
+[11/Dec/2024 20:57:19] "HEAD /security.yml HTTP/1.0" 404 0
+Not Found: /mail.yml
+[11/Dec/2024 20:57:19] "HEAD /mail.yml HTTP/1.0" 404 0
+Not Found: /smtp.yml
+[11/Dec/2024 20:57:20] "HEAD /smtp.yml HTTP/1.0" 404 0
+Not Found: /cloud.yml
+[11/Dec/2024 20:57:30] "HEAD /cloud.yml HTTP/1.0" 404 0
+Not Found: /cache.yml
+[11/Dec/2024 20:57:31] "HEAD /cache.yml HTTP/1.0" 404 0
+Not Found: /session.yml
+[11/Dec/2024 20:57:31] "HEAD /session.yml HTTP/1.0" 404 0
+Not Found: /storage.yml
+[11/Dec/2024 20:57:31] "HEAD /storage.yml HTTP/1.0" 404 0
+Not Found: /logging.yml
+[11/Dec/2024 20:57:32] "HEAD /logging.yml HTTP/1.0" 404 0
+Not Found: /backup.yml
+[11/Dec/2024 20:57:32] "HEAD /backup.yml HTTP/1.0" 404 0
+Not Found: /dev.yml
+[11/Dec/2024 20:57:33] "HEAD /dev.yml HTTP/1.0" 404 0
+Not Found: /prod.yml
+[11/Dec/2024 20:57:33] "HEAD /prod.yml HTTP/1.0" 404 0
+Not Found: /staging.yml
+[11/Dec/2024 20:57:33] "HEAD /staging.yml HTTP/1.0" 404 0
+Not Found: /test.yml
+[11/Dec/2024 20:57:34] "HEAD /test.yml HTTP/1.0" 404 0
+Not Found: /local.yml
+[11/Dec/2024 20:57:34] "HEAD /local.yml HTTP/1.0" 404 0
+Not Found: /config.ini
+[11/Dec/2024 20:57:35] "HEAD /config.ini HTTP/1.0" 404 0
+Not Found: /app.ini
+[11/Dec/2024 20:57:35] "HEAD /app.ini HTTP/1.0" 404 0
+Not Found: /settings.ini
+[11/Dec/2024 20:57:35] "HEAD /settings.ini HTTP/1.0" 404 0
+Not Found: /database.ini
+[11/Dec/2024 20:57:36] "HEAD /database.ini HTTP/1.0" 404 0
+Not Found: /db.ini
+[11/Dec/2024 20:57:36] "HEAD /db.ini HTTP/1.0" 404 0
+Not Found: /server.ini
+[11/Dec/2024 20:57:37] "HEAD /server.ini HTTP/1.0" 404 0
+Not Found: /api.ini
+[11/Dec/2024 20:57:37] "HEAD /api.ini HTTP/1.0" 404 0
+Not Found: /auth.ini
+[11/Dec/2024 20:57:37] "HEAD /auth.ini HTTP/1.0" 404 0
+Not Found: /credentials.ini
+[11/Dec/2024 20:57:38] "HEAD /credentials.ini HTTP/1.0" 404 0
+Not Found: /secrets.ini
+[11/Dec/2024 20:57:38] "HEAD /secrets.ini HTTP/1.0" 404 0
+Not Found: /security.ini
+[11/Dec/2024 20:57:39] "HEAD /security.ini HTTP/1.0" 404 0
+Not Found: /mail.ini
+[11/Dec/2024 20:57:39] "HEAD /mail.ini HTTP/1.0" 404 0
+Not Found: /smtp.ini
+[11/Dec/2024 20:57:39] "HEAD /smtp.ini HTTP/1.0" 404 0
+Not Found: /aws.ini
+[11/Dec/2024 20:57:40] "HEAD /aws.ini HTTP/1.0" 404 0
+Not Found: /cloud.ini
+[11/Dec/2024 20:57:40] "HEAD /cloud.ini HTTP/1.0" 404 0
+Not Found: /cache.ini
+[11/Dec/2024 20:57:40] "HEAD /cache.ini HTTP/1.0" 404 0
+Not Found: /session.ini
+[11/Dec/2024 20:57:41] "HEAD /session.ini HTTP/1.0" 404 0
+Not Found: /storage.ini
+[11/Dec/2024 20:57:41] "HEAD /storage.ini HTTP/1.0" 404 0
+Not Found: /logging.ini
+[11/Dec/2024 20:57:42] "HEAD /logging.ini HTTP/1.0" 404 0
+Not Found: /backup.ini
+[11/Dec/2024 20:57:43] "HEAD /backup.ini HTTP/1.0" 404 0
+Not Found: /prod.ini
+[11/Dec/2024 20:57:53] "HEAD /prod.ini HTTP/1.0" 404 0
+Not Found: /staging.ini
+[11/Dec/2024 20:57:56] "HEAD /staging.ini HTTP/1.0" 404 0
+Not Found: /test.ini
+[11/Dec/2024 20:57:56] "HEAD /test.ini HTTP/1.0" 404 0
+Not Found: /local.ini
+[11/Dec/2024 20:57:57] "HEAD /local.ini HTTP/1.0" 404 0
+Not Found: /default.ini
+[11/Dec/2024 20:57:57] "HEAD /default.ini HTTP/1.0" 404 0
+Not Found: /s3_credentials
+[11/Dec/2024 20:58:08] "HEAD /s3_credentials HTTP/1.0" 404 0
+Not Found: /s3_settings
+[11/Dec/2024 20:58:08] "HEAD /s3_settings HTTP/1.0" 404 0
+Not Found: /aws/s3
+[11/Dec/2024 20:58:08] "HEAD /aws/s3 HTTP/1.0" 404 0
+Not Found: /aws/s3/config
+[11/Dec/2024 20:58:09] "HEAD /aws/s3/config HTTP/1.0" 404 0
+Not Found: /aws/s3/credentials
+[11/Dec/2024 20:58:09] "HEAD /aws/s3/credentials HTTP/1.0" 404 0
+Not Found: /.s3cfg
+[11/Dec/2024 20:58:10] "HEAD /.s3cfg HTTP/1.0" 404 0
+Not Found: /.s3/credentials
+[11/Dec/2024 20:58:11] "HEAD /.s3/credentials HTTP/1.0" 404 0
+Not Found: /config/s3.yml
+[11/Dec/2024 20:58:11] "HEAD /config/s3.yml HTTP/1.0" 404 0
+Not Found: /settings/s3.yml
+[11/Dec/2024 20:58:12] "HEAD /settings/s3.yml HTTP/1.0" 404 0
+Not Found: /credentials/s3.yml
+[11/Dec/2024 20:58:12] "HEAD /credentials/s3.yml HTTP/1.0" 404 0
+Not Found: /s3.env
+[11/Dec/2024 20:58:13] "HEAD /s3.env HTTP/1.0" 404 0
+Not Found: /b.php
+[11/Dec/2024 20:58:13] "HEAD /b.php HTTP/1.0" 404 0
+Not Found: /index.php
+[11/Dec/2024 20:58:13] "HEAD /index.php HTTP/1.0" 404 0
+Not Found: /display.php
+[11/Dec/2024 20:58:14] "HEAD /display.php HTTP/1.0" 404 0
+Not Found: /header.php
+[11/Dec/2024 20:58:21] "HEAD /header.php HTTP/1.0" 404 0
+Not Found: /headers.php
+[11/Dec/2024 20:58:22] "HEAD /headers.php HTTP/1.0" 404 0
+Not Found: /install.php
+[11/Dec/2024 20:58:22] "HEAD /install.php HTTP/1.0" 404 0
+Not Found: /installer.php
+[11/Dec/2024 20:58:23] "HEAD /installer.php HTTP/1.0" 404 0
+Not Found: /phpconfig.php
+[11/Dec/2024 20:58:23] "HEAD /phpconfig.php HTTP/1.0" 404 0
+Not Found: /config-php.php
+[11/Dec/2024 20:58:24] "HEAD /config-php.php HTTP/1.0" 404 0
+Not Found: /php-configuration.php
+[11/Dec/2024 20:58:24] "HEAD /php-configuration.php HTTP/1.0" 404 0
+Not Found: /configuration-php.php
+[11/Dec/2024 20:58:25] "HEAD /configuration-php.php HTTP/1.0" 404 0
+[11/Dec/2024 21:00:58] "GET / HTTP/1.0" 200 2582
+[11/Dec/2024 21:53:09] "GET / HTTP/1.0" 200 2582
+[{'idBitacora': 1, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 2, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 3, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 4, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 5, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 6, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 7, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 8, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 9, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 10, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 11, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 12, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 13, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 14, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 15, 'accion': 'INSERT', 'relacion': 'PLANTAS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 420198), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 16, 'accion': 'INSERT', 'relacion': 'PLANTAS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 420198), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 17, 'accion': 'INSERT', 'relacion': 'PROVEEDORES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 424187), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 18, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 19, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 20, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 21, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 22, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 23, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 24, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 25, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 26, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 27, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 28, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 29, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 30, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 31, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 32, 'accion': 'INSERT', 'relacion': 'VENTAS', 'fecha': datetime.datetime(2024, 12, 11, 17, 40, 57, 54489), 'idUsuario': 5, 'nombreUsuario': 'admin'}]
