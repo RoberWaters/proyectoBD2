@@ -3,6 +3,11 @@ from django.db import connections
 
 # Create your views here.
 
+#Pagina Principal
+def pagina_principal(request):
+    return render(request, 'bitacora/pagina_principal.html')
+
+
 #BITACORA
 def lista_bitacora(request):
     with connections['default'].cursor() as cursor:
