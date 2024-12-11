@@ -1,0 +1,525 @@
+[2024-12-11 07:46:20 +0000] [16129] [INFO] Starting gunicorn 23.0.0
+[2024-12-11 07:46:20 +0000] [16129] [INFO] Listening at: http://0.0.0.0:8000 (16129)
+[2024-12-11 07:46:20 +0000] [16129] [INFO] Using worker: sync
+[2024-12-11 07:46:20 +0000] [16130] [INFO] Booting worker with pid: 16130
+[2024-12-11 07:46:20 +0000] [16130] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/proyectoBD2/myBD/myBD/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 89, in __getattr__
+    self._setup(name)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 76, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/proyectoBD2/myBD/myBD/settings.py", line 28
+    ALLOWED_HOSTS = [52.90.155.35]
+                     ^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-11 07:46:20 +0000] [16130] [INFO] Worker exiting (pid: 16130)
+[2024-12-11 07:46:20 +0000] [16129] [ERROR] Worker (pid:16130) exited with code 3
+[2024-12-11 07:46:20 +0000] [16129] [ERROR] Shutting down: Master
+[2024-12-11 07:46:20 +0000] [16129] [ERROR] Reason: Worker failed to boot.
+[2024-12-11 07:49:54 +0000] [16148] [INFO] Starting gunicorn 23.0.0
+[2024-12-11 07:49:54 +0000] [16148] [INFO] Listening at: http://0.0.0.0:8000 (16148)
+[2024-12-11 07:49:54 +0000] [16148] [INFO] Using worker: sync
+[2024-12-11 07:49:54 +0000] [16149] [INFO] Booting worker with pid: 16149
+[2024-12-11 07:49:54 +0000] [16149] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/proyectoBD2/myBD/myBD/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 89, in __getattr__
+    self._setup(name)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 76, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/proyectoBD2/myBD/myBD/settings.py", line 28
+    ALLOWED_HOSTS = [*]
+                      ^
+SyntaxError: invalid syntax
+[2024-12-11 07:49:54 +0000] [16149] [INFO] Worker exiting (pid: 16149)
+[2024-12-11 07:49:54 +0000] [16148] [ERROR] Worker (pid:16149) exited with code 3
+[2024-12-11 07:49:54 +0000] [16148] [ERROR] Shutting down: Master
+[2024-12-11 07:49:54 +0000] [16148] [ERROR] Reason: Worker failed to boot.
+[2024-12-11 07:58:01 +0000] [16253] [INFO] Starting gunicorn 23.0.0
+[2024-12-11 07:58:01 +0000] [16253] [INFO] Listening at: http://0.0.0.0:8000 (16253)
+[2024-12-11 07:58:01 +0000] [16253] [INFO] Using worker: sync
+[2024-12-11 07:58:01 +0000] [16254] [INFO] Booting worker with pid: 16254
+[2024-12-11 07:58:02 +0000] [16254] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/proyectoBD2/myBD/myBD/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 89, in __getattr__
+    self._setup(name)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 76, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/proyectoBD2/myBD/myBD/settings.py", line 28
+    ALLOWED_HOSTS = [*]
+                      ^
+SyntaxError: invalid syntax
+[2024-12-11 07:58:02 +0000] [16254] [INFO] Worker exiting (pid: 16254)
+[2024-12-11 07:58:02 +0000] [16253] [ERROR] Worker (pid:16254) exited with code 3
+[2024-12-11 07:58:02 +0000] [16253] [ERROR] Shutting down: Master
+[2024-12-11 07:58:02 +0000] [16253] [ERROR] Reason: Worker failed to boot.
+[2024-12-11 08:11:19 +0000] [16362] [INFO] Starting gunicorn 23.0.0
+[2024-12-11 08:11:19 +0000] [16362] [INFO] Listening at: http://0.0.0.0:8000 (16362)
+[2024-12-11 08:11:19 +0000] [16362] [INFO] Using worker: sync
+[2024-12-11 08:11:19 +0000] [16363] [INFO] Booting worker with pid: 16363
+[2024-12-11 08:11:19 +0000] [16363] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'nombre_proyecto'
+[2024-12-11 08:11:19 +0000] [16363] [INFO] Worker exiting (pid: 16363)
+[2024-12-11 08:11:19 +0000] [16362] [ERROR] Worker (pid:16363) exited with code 3
+[2024-12-11 08:11:19 +0000] [16362] [ERROR] Shutting down: Master
+[2024-12-11 08:11:19 +0000] [16362] [ERROR] Reason: Worker failed to boot.
+[2024-12-11 08:14:24 +0000] [16458] [INFO] Starting gunicorn 23.0.0
+[2024-12-11 08:14:24 +0000] [16458] [INFO] Listening at: http://0.0.0.0:8000 (16458)
+[2024-12-11 08:14:24 +0000] [16458] [INFO] Using worker: sync
+[2024-12-11 08:14:24 +0000] [16459] [INFO] Booting worker with pid: 16459
+[2024-12-11 08:14:25 +0000] [16459] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/proyectoBD2/myBD/myBD/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 89, in __getattr__
+    self._setup(name)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 76, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/proyectoBD2/myBD/myBD/settings.py", line 28
+    ALLOWED_HOSTS = [*]
+                      ^
+SyntaxError: invalid syntax
+[2024-12-11 08:14:25 +0000] [16459] [INFO] Worker exiting (pid: 16459)
+[2024-12-11 08:14:25 +0000] [16458] [ERROR] Worker (pid:16459) exited with code 3
+[2024-12-11 08:14:25 +0000] [16458] [ERROR] Shutting down: Master
+[2024-12-11 08:14:25 +0000] [16458] [ERROR] Reason: Worker failed to boot.
+[2024-12-11 08:16:08 +0000] [17337] [INFO] Starting gunicorn 23.0.0
+[2024-12-11 08:16:08 +0000] [17337] [INFO] Listening at: http://0.0.0.0:8000 (17337)
+[2024-12-11 08:16:08 +0000] [17337] [INFO] Using worker: sync
+[2024-12-11 08:16:08 +0000] [17338] [INFO] Booting worker with pid: 17338
+[2024-12-11 08:16:08 +0000] [17338] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/proyectoBD2/myBD/myBD/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 89, in __getattr__
+    self._setup(name)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 76, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/proyectoBD2/myBD/myBD/settings.py", line 28
+    ALLOWED_HOSTS = [*]
+                      ^
+SyntaxError: invalid syntax
+[2024-12-11 08:16:08 +0000] [17338] [INFO] Worker exiting (pid: 17338)
+[2024-12-11 08:16:09 +0000] [17337] [ERROR] Worker (pid:17338) exited with code 3
+[2024-12-11 08:16:09 +0000] [17337] [ERROR] Shutting down: Master
+[2024-12-11 08:16:09 +0000] [17337] [ERROR] Reason: Worker failed to boot.
+[2024-12-11 08:31:24 +0000] [17523] [INFO] Starting gunicorn 23.0.0
+[2024-12-11 08:31:24 +0000] [17523] [INFO] Listening at: http://127.0.0.1:8000 (17523)
+[2024-12-11 08:31:24 +0000] [17523] [INFO] Using worker: sync
+[2024-12-11 08:31:24 +0000] [17524] [INFO] Booting worker with pid: 17524
+[2024-12-11 08:31:24 +0000] [17524] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/proyectoBD2/myBD/myBD/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 89, in __getattr__
+    self._setup(name)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 76, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/proyectoBD2/myBD/myBD/settings.py", line 28
+    ALLOWED_HOSTS = [*]
+                      ^
+SyntaxError: invalid syntax
+[2024-12-11 08:31:24 +0000] [17524] [INFO] Worker exiting (pid: 17524)
+[2024-12-11 08:31:24 +0000] [17523] [ERROR] Worker (pid:17524) exited with code 3
+[2024-12-11 08:31:24 +0000] [17523] [ERROR] Shutting down: Master
+[2024-12-11 08:31:24 +0000] [17523] [ERROR] Reason: Worker failed to boot.
+Watching for file changes with StatReloader
+[11/Dec/2024 08:53:14] "GET / HTTP/1.0" 200 2208
+[11/Dec/2024 08:53:30] "GET / HTTP/1.0" 200 2208
+[11/Dec/2024 08:53:31] "GET / HTTP/1.0" 200 2208
+[11/Dec/2024 08:53:33] "GET /ventas/ HTTP/1.0" 200 1155
+[11/Dec/2024 08:53:35] "GET /proveedores/ HTTP/1.0" 200 2504
+[11/Dec/2024 08:54:03] "GET /concesionarios/ HTTP/1.0" 200 2365
+[11/Dec/2024 09:05:23] "GET / HTTP/1.0" 200 2208
+Internal Server Error: /vehiculos/
+Traceback (most recent call last):
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/proyectoBD2/myBD/bitacora/views.py", line 43, in lista_vehiculos
+    return render(request, 'bitacora/lista_vehiculos.html', {'vehiculos': resultados})
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'inicio' not found. 'inicio' is not a valid view function or pattern name.
+[11/Dec/2024 09:05:25] "GET /vehiculos/ HTTP/1.0" 500 123213
+[11/Dec/2024 09:05:28] "GET /concesionarios/ HTTP/1.0" 200 2365
+[11/Dec/2024 09:05:30] "GET /ventas/ HTTP/1.0" 200 1155
+[11/Dec/2024 09:05:31] "GET /plantas/ HTTP/1.0" 200 1428
+[11/Dec/2024 09:05:33] "GET /proveedores/ HTTP/1.0" 200 2504
+[11/Dec/2024 09:05:34] "GET /modelos/ HTTP/1.0" 200 2203
+[11/Dec/2024 09:05:36] "GET /bitacoras/ HTTP/1.0" 200 11310
+[11/Dec/2024 09:05:41] "GET /clientes/ HTTP/1.0" 200 4486
+[11/Dec/2024 09:17:34] "GET / HTTP/1.0" 200 2208
+[11/Dec/2024 09:20:37] "GET / HTTP/1.0" 200 2208
+[11/Dec/2024 09:20:45] "GET / HTTP/1.0" 200 2208
+[11/Dec/2024 09:21:00] "GET / HTTP/1.0" 200 2208
+[11/Dec/2024 09:21:02] "GET / HTTP/1.0" 200 2208
+[11/Dec/2024 10:02:09] "GET / HTTP/1.0" 200 2208
+[11/Dec/2024 10:02:26] "GET / HTTP/1.0" 200 2208
+[11/Dec/2024 10:02:31] "GET / HTTP/1.0" 200 2208
+Not Found: /favicon.ico
+[11/Dec/2024 10:02:32] "GET /favicon.ico HTTP/1.0" 404 3300
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 11, 2024 - 08:53:13
+Django version 5.0.1, using settings 'myBD.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+[{'idBitacora': 1, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 2, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 3, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 4, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 5, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 6, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 7, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 8, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 9, 'accion': 'INSERT', 'relacion': 'CLIENTES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 405192), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 10, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 11, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 12, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 13, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 14, 'accion': 'INSERT', 'relacion': 'CONCESIONARIOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 414196), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 15, 'accion': 'INSERT', 'relacion': 'PLANTAS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 420198), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 16, 'accion': 'INSERT', 'relacion': 'PLANTAS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 420198), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 17, 'accion': 'INSERT', 'relacion': 'PROVEEDORES', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 424187), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 18, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 19, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 20, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 21, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 22, 'accion': 'INSERT', 'relacion': 'MODELOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 23, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 24, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 25, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 26, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}, {'idBitacora': 27, 'accion': 'INSERT', 'relacion': 'VEHICULOS', 'fecha': datetime.datetime(2024, 12, 8, 19, 46, 22, 434509), 'idUsuario': 5, 'nombreUsuario': 'admin'}]
+[11/Dec/2024 10:02:38] "GET /bitacoras/ HTTP/1.0" 200 11310
+[11/Dec/2024 10:02:46] "GET / HTTP/1.0" 200 2208
+[11/Dec/2024 10:02:52] "GET /concesionarios/ HTTP/1.0" 200 2365
+[11/Dec/2024 10:02:55] "GET / HTTP/1.0" 200 2208
+[11/Dec/2024 10:02:56] "GET /plantas/ HTTP/1.0" 200 1428
+[11/Dec/2024 10:02:58] "GET / HTTP/1.0" 200 2208
+Internal Server Error: /vehiculos/
+Traceback (most recent call last):
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/proyectoBD2/myBD/bitacora/views.py", line 43, in lista_vehiculos
+    return render(request, 'bitacora/lista_vehiculos.html', {'vehiculos': resultados})
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'inicio' not found. 'inicio' is not a valid view function or pattern name.
+[11/Dec/2024 10:02:59] "GET /vehiculos/ HTTP/1.0" 500 123146
+[11/Dec/2024 10:03:02] "GET /clientes/ HTTP/1.0" 200 4486
+[11/Dec/2024 10:03:05] "GET /ventas/ HTTP/1.0" 200 1155
+[11/Dec/2024 10:03:07] "GET /proveedores/ HTTP/1.0" 200 2504
+[11/Dec/2024 10:03:09] "GET /concesionarios/ HTTP/1.0" 200 2365
+[11/Dec/2024 10:03:11] "GET /modelos/ HTTP/1.0" 200 2203
+Internal Server Error: /vehiculos/
+Traceback (most recent call last):
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/proyectoBD2/myBD/bitacora/views.py", line 43, in lista_vehiculos
+    return render(request, 'bitacora/lista_vehiculos.html', {'vehiculos': resultados})
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/ubuntu/proyectoBD2/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'inicio' not found. 'inicio' is not a valid view function or pattern name.
+[11/Dec/2024 10:03:12] "GET /vehiculos/ HTTP/1.0" 500 123146
+[11/Dec/2024 10:03:14] "GET /clientes/ HTTP/1.0" 200 4486
+[11/Dec/2024 10:03:16] "GET /clientes/ HTTP/1.0" 200 4486
