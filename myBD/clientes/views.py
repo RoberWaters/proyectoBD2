@@ -6,10 +6,11 @@ from django.http import JsonResponse
 
 def lista_clientes(request):
     with connections['default'].cursor() as cursor:
-        cursor.execute("SELECT * FROM dbo.CLIENTES")
-        columnas = [col[0] for col in cursor.description]  # Obtén los nombres de las columnas
+        # Consulta a la tabla dbo.CLIENTES
+        cursor.execute("SELECT idCliente, nombre, direccion, noTelefono, sexo, ingresosAnuales FROM dbo.CLIENTES")
+        columnas = [col[0] for col in cursor.description]  # Nombres de las columnas
         resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]  # Combina columnas con datos
     
-    return JsonResponse(resultados, safe=False)
-
+    # Renderiza la plantilla HTML con los resultados
+    return render(request, 'clientes/lista_clientes.html', {'clientes': resultados})
 
