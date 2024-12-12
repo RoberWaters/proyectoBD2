@@ -132,3 +132,55 @@ def pagina_marketing(request):
 
 def pagina_cliente(request):
     return render(request, "vistas/pagina_cliente.html")
+
+#ENUM_COLOR
+def lista_colores(request):
+    with connections['default'].cursor() as cursor:
+        cursor.execute("SELECT color FROM dbo.ENUM_COLOR")
+        columnas = [col[0] for col in cursor.description]
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
+    
+    # Verifica los resultados
+    print(resultados)  # Agrega esto para depuración
+    
+    return render(request, 'vistas/lista_colores.html', {'colores': resultados})
+
+#ENUM_MARCAS
+def lista_marcas(request):
+    with connections['default'].cursor() as cursor:
+        cursor.execute("SELECT marca FROM dbo.ENUM_MARCAS")
+        columnas = [col[0] for col in cursor.description]
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
+    
+    # Verifica los resultados
+    print(resultados)  # Agrega esto para depuración
+    
+    return render(request, 'vistas/lista_marcas.html', {'marcas': resultados})
+
+#ENUM TRANSMISION
+def lista_transmision(request):
+    with connections['default'].cursor() as cursor:
+        cursor.execute("SELECT transmision FROM dbo.ENUM_TRANSMISION")
+        columnas = [col[0] for col in cursor.description]
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
+    
+    # Verifica los resultados
+    print(resultados)  # Agrega esto para depuración
+    
+    return render(request, 'vistas/lista_transmision.html', {'transmisiones': resultados})
+
+
+#MODELOSXPLANTAS
+def lista_modelosxplantas(request):
+    with connections['default'].cursor() as cursor:
+        cursor.execute("""
+            SELECT idModelo, idPlanta
+            FROM dbo.MODELOSXPLANTAS
+        """)
+        columnas = [col[0] for col in cursor.description]
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
+    
+    # Verifica los resultados
+    print(resultados)  # Agrega esto para depuración
+    
+    return render(request, 'vistas/lista_modelosxplantas.html', {'modelosxplantas': resultados})

@@ -6,7 +6,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     # Página principal y otras vistas
-    path('', vistas_views.pagina_principal, name='pagina_principal'),
+    path('', vistas_views.login_view, name='login'),
     path('clientes/', vistas_views.lista_clientes, name='lista_clientes'),
     path('bitacoras/', vistas_views.lista_bitacora, name='lista_bitacora'),
     path('concesionarios/', vistas_views.lista_concesionarios, name='lista_concesionarios'),
@@ -15,6 +15,10 @@ urlpatterns = [
     path('modelos/', vistas_views.lista_modelos, name='lista_modelos'),
     path('plantas/', vistas_views.lista_plantas, name='lista_plantas'),
     path('ventas/', vistas_views.lista_ventas, name='lista_ventas'),
+    path('colores/', vistas_views.lista_colores, name='lista_colores'),
+    path('marcas/', vistas_views.lista_marcas, name='lista_marcas'),
+    path('transmision/', vistas_views.lista_transmision, name='lista_transmision'),
+    path('modelosxplantas/', vistas_views.lista_modelosxplantas, name='lista_modelosxplantas'),
     
     # Rutas de autenticación ahora dentro de vistas
     path('login/', vistas_views.login_view, name='login'),  # Login en vistas
