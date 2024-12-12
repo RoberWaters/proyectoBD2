@@ -21,7 +21,9 @@ urlpatterns = [
     path('modelosxplantas/', vistas_views.lista_modelosxplantas, name='lista_modelosxplantas'),
     path('modelosxproveedores/', vistas_views.lista_modelosxproveedores, name='lista_modelosxproveedores'),
     path('vehiculosxconcesionarios/', vistas_views.lista_vehiculosxconcesionarios, name='lista_vehiculosxconcesionarios'),
-    
+    path('dias_en_inventario/', vistas_views.lista_dias_en_inventario, name='lista_dias_en_inventario'),
+    path('marcas_mas_caras/', vistas_views.lista_marcas_mas_caras, name='lista_marcas_mas_caras'),
+
     # Rutas de autenticación ahora dentro de vistas
     path('login/', vistas_views.login_view, name='login'),  # Login en vistas
     path('pagina_principal/', vistas_views.pagina_principal, name='pagina_principal'),

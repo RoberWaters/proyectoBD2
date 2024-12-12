@@ -34,8 +34,20 @@
     <a class="btn btn-custom px-4 py-2" href="http://automotriz.cb1uoydbeph6.us-east-1.rds.amazonaws.com" target="_blank">
         <i class="fas fa-database"></i> Base de Datos AWS
     </a>
+
+         <!-- Div con etiquetas de vistas -->
+            <div id="vistas-container" class="mt-4 w-100">
+                <a class="btn btn-custom px-4 py-2" href="{% url 'lista_dias_en_inventario' %}">
+                    <i class="fas fa-calendar-day"></i> Días en Inventario
+                </a>
+
+                <a class="btn btn-custom px-4 py-2" href="{% url 'lista_marcas_mas_caras' %}">
+                    <i class="fas fa-trophy"></i> Marcas Más Caras
+                </a>
+
+
+            </div>
 		
-            <!-- Aquí puedes agregar otros botones de acuerdo a tu necesidad -->
         </div>
     </div>
 	

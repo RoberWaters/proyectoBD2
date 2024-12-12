@@ -201,3 +201,21 @@ def lista_vehiculosxconcesionarios(request):
     print(resultados)  # Agrega esto para depuración
     
     return render(request, 'vistas/lista_vehiculosxconcesionarios.html', {'vehiculosxconcesionarios': resultados})
+
+
+def lista_dias_en_inventario(request):
+    with connections['default'].cursor() as cursor:
+        cursor.execute("SELECT nombre, Promedioxauto FROM DIAS_EN_INVENTARIO")
+        columnas = [col[0] for col in cursor.description]
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
+    
+    
+    return render(request, 'vistas/lista_dias_en_inventario.html', {'dias_en_inventario': resultados})
+
+def lista_marcas_mas_caras(request):
+    with connections['default'].cursor() as cursor:
+        cursor.execute("SELECT rank_ventas, marca, ventas FROM MARCAS_MAS_CARAS")
+        columnas = [col[0] for col in cursor.description]
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
+
+    return render(request, 'vistas/lista_marcas_mas_caras.html', {'marcas_mas_caras': resultados})
