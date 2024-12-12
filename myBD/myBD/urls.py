@@ -19,6 +19,8 @@ urlpatterns = [
     path('marcas/', vistas_views.lista_marcas, name='lista_marcas'),
     path('transmision/', vistas_views.lista_transmision, name='lista_transmision'),
     path('modelosxplantas/', vistas_views.lista_modelosxplantas, name='lista_modelosxplantas'),
+    path('modelosxproveedores/', vistas_views.lista_modelosxproveedores, name='lista_modelosxproveedores'),
+    path('vehiculosxconcesionarios/', vistas_views.lista_vehiculosxconcesionarios, name='lista_vehiculosxconcesionarios'),
     
     # Rutas de autenticación ahora dentro de vistas
     path('login/', vistas_views.login_view, name='login'),  # Login en vistas

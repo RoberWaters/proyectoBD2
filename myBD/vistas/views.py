@@ -140,9 +140,6 @@ def lista_colores(request):
         columnas = [col[0] for col in cursor.description]
         resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
     
-    # Verifica los resultados
-    print(resultados)  # Agrega esto para depuración
-    
     return render(request, 'vistas/lista_colores.html', {'colores': resultados})
 
 #ENUM_MARCAS
@@ -152,8 +149,6 @@ def lista_marcas(request):
         columnas = [col[0] for col in cursor.description]
         resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
     
-    # Verifica los resultados
-    print(resultados)  # Agrega esto para depuración
     
     return render(request, 'vistas/lista_marcas.html', {'marcas': resultados})
 
@@ -164,8 +159,6 @@ def lista_transmision(request):
         columnas = [col[0] for col in cursor.description]
         resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
     
-    # Verifica los resultados
-    print(resultados)  # Agrega esto para depuración
     
     return render(request, 'vistas/lista_transmision.html', {'transmisiones': resultados})
 
@@ -179,8 +172,32 @@ def lista_modelosxplantas(request):
         """)
         columnas = [col[0] for col in cursor.description]
         resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
+    return render(request, 'vistas/lista_modelosxplantas.html', {'modelosxplantas': resultados})
+
+
+
+def lista_modelosxproveedores(request):
+    with connections['default'].cursor() as cursor:
+        cursor.execute("""
+            SELECT idModelo, idProveedor
+            FROM dbo.MODELOSXPROVEEDORES
+        """)
+        columnas = [col[0] for col in cursor.description]
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
+    return render(request, 'vistas/lista_modelosxproveedores.html', {'modelosxproveedores': resultados})
+
+
+
+def lista_vehiculosxconcesionarios(request):
+    with connections['default'].cursor() as cursor:
+        cursor.execute("""
+            SELECT VIN, idConcesionario, adquision
+            FROM dbo.VEHICULOSXCONCESIONARIOS
+        """)
+        columnas = [col[0] for col in cursor.description]
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
     
     # Verifica los resultados
     print(resultados)  # Agrega esto para depuración
     
-    return render(request, 'vistas/lista_modelosxplantas.html', {'modelosxplantas': resultados})
+    return render(request, 'vistas/lista_vehiculosxconcesionarios.html', {'vehiculosxconcesionarios': resultados})
