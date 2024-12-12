@@ -219,3 +219,12 @@ def lista_marcas_mas_caras(request):
         resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
 
     return render(request, 'vistas/lista_marcas_mas_caras.html', {'marcas_mas_caras': resultados})
+
+
+def lista_marcas_mas_vendidas(request):
+    with connections['default'].cursor() as cursor:
+        cursor.execute("SELECT rank_ventas, marca, ventas FROM MARCAS_MAS_VENDIDAS")
+        columnas = [col[0] for col in cursor.description]
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
+    
+    return render(request, 'vistas/lista_marcas_mas_vendidas.html', {'marcas_mas_vendidas': resultados})
