@@ -1,5 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.db import connections
+from .models import Usuario
+
 
 # Create your views here.
 
@@ -97,3 +99,36 @@ def lista_ventas(request):
     
     # Renderiza la plantilla HTML con los resultados
     return render(request, 'vistas/lista_ventas.html', {'ventas': resultados})
+
+
+def login_view(request):
+    if request.method == "POST":
+        username = request.POST.get("username")
+        password = request.POST.get("password")
+
+        try:
+            # Busca al usuario en la base de datos
+            usuario = Usuario.objects.get(username=username, password=password)
+
+            # Redirige según el rol
+            if usuario.role == "Administrador":
+                return redirect("pagina_principal")  # Redirige a la página principal
+            elif usuario.role == "Marketing":
+                return redirect("pagina_marketing")  # Página de marketing
+            elif usuario.role == "Cliente":
+                return redirect("pagina_cliente")  # Página del cliente
+
+        except Usuario.DoesNotExist:
+            # Si el usuario no existe o la contraseña es incorrecta
+            return render(request, "vistas/login.html", {"error": "Usuario o contraseña incorrectos."})
+
+    # Si no es POST, simplemente renderiza el formulario de login
+    return render(request, "vistas/login.html")
+
+
+
+def pagina_marketing(request):
+    return render(request, "vistas/pagina_marketing.html")
+
+def pagina_cliente(request):
+    return render(request, "vistas/pagina_cliente.html")
