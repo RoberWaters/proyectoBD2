@@ -1377,3 +1377,46 @@ Watching for file changes with StatReloader
 Error: That port is already in use.
 [12/Dec/2024 08:22:02] "GET / HTTP/1.0" 200 2582
 [12/Dec/2024 08:22:03] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:23:53] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:24:01] "GET / HTTP/1.0" 200 2582
+Not Found: /favicon.ico
+[12/Dec/2024 08:24:01] "GET /favicon.ico HTTP/1.0" 404 3844
+Watching for file changes with StatReloader
+Error: That port is already in use.
+[12/Dec/2024 08:24:13] "GET / HTTP/1.0" 200 2582
+Not Found: /favicon.ico
+[12/Dec/2024 08:24:13] "GET /favicon.ico HTTP/1.0" 404 3844
+[12/Dec/2024 08:24:18] "GET /login/ HTTP/1.0" 200 1345
+[12/Dec/2024 08:24:23] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:24:26] "GET /login/ HTTP/1.0" 200 1345
+[12/Dec/2024 08:25:22] "GET /login/ HTTP/1.0" 200 1345
+[12/Dec/2024 08:25:30] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:25:32] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:25:46] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:25:57] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:25:58] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:25:58] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:25:59] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:25:59] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:25:59] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:26:00] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:26:00] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:26:00] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:26:01] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:26:01] "GET / HTTP/1.0" 200 2582
+[12/Dec/2024 08:28:36] "GET / HTTP/1.0" 200 2582
+/home/ubuntu/proyectoBD2/myBD/vistas/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 12, 2024 - 08:19:27
+Django version 5.0.1, using settings 'myBD.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+[12/Dec/2024 09:31:40] "GET / HTTP/1.0" 200 1345
+[12/Dec/2024 09:31:42] "GET / HTTP/1.0" 200 1345
+[12/Dec/2024 09:31:51] "POST / HTTP/1.0" 302 0
+[12/Dec/2024 09:31:52] "GET /pagina_principal/ HTTP/1.0" 200 3883
+[12/Dec/2024 09:32:01] "GET / HTTP/1.0" 200 1345
