@@ -228,3 +228,38 @@ def lista_marcas_mas_vendidas(request):
         resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
     
     return render(request, 'vistas/lista_marcas_mas_vendidas.html', {'marcas_mas_vendidas': resultados})
+
+def lista_meses_para_convertibles(request):
+    with connections['default'].cursor() as cursor:
+        cursor.execute("SELECT mes, ventas FROM MESES_PARA_CONVERTIBLES")
+        columnas = [col[0] for col in cursor.description]
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
+    
+    return render(request, 'vistas/lista_meses_para_convertibles.html', {'meses_para_convertibles': resultados})
+
+
+def lista_proveedores_en_rango(request):
+    with connections['default'].cursor() as cursor:
+        cursor.execute("SELECT Proveedor, VIN, fechaVenta, fechaEntrada, Cliente, TelCliente FROM PROVEEDORES_EN_RANGO")
+        columnas = [col[0] for col in cursor.description]
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
+    
+    return render(request, 'vistas/lista_proveedores_en_rango.html', {'proveedores_en_rango': resultados})
+
+
+def lista_tendencias(request):
+    with connections['default'].cursor() as cursor:
+        cursor.execute("SELECT periodo, Rango_Salario, F, M FROM TENDENCIAS")
+        columnas = [col[0] for col in cursor.description]
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
+    
+    return render(request, 'vistas/lista_tendencias.html', {'tendencias': resultados})
+
+
+def lista_vehiculos_en_inventario(request):
+    with connections['default'].cursor() as cursor:
+        cursor.execute("SELECT VIN, idModelo, color, noMotor, transmision FROM VEHICULOS_EN_INVENTARIO")
+        columnas = [col[0] for col in cursor.description]
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
+    
+    return render(request, 'vistas/lista_vehiculos_en_inventario.html', {'vehiculos_en_inventario': resultados})
