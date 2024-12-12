@@ -18,8 +18,12 @@ from django.contrib import admin
 from django.urls import path
 
 #Trayendo vistas de las apps
-from clientes.views import lista_clientes  
-from bitacora.views import lista_bitacora, pagina_principal, lista_concesionarios, lista_vehiculos,lista_proveedores, lista_modelos, lista_plantas, lista_ventas
+from vistas.views import (lista_bitacora, pagina_principal, lista_concesionarios, lista_vehiculos,
+                          lista_proveedores, lista_modelos, lista_plantas, lista_ventas,
+                          lista_clientes
+                          )
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', pagina_principal, name='pagina_principal'),  # Página principal

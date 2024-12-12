@@ -5,7 +5,20 @@ from django.db import connections
 
 #Pagina Principal
 def pagina_principal(request):
-    return render(request, 'bitacora/pagina_principal.html')
+    return render(request, 'vistas/pagina_principal.html')
+
+
+#CLIENTES
+def lista_clientes(request):
+    with connections['default'].cursor() as cursor:
+        # Consulta a la tabla dbo.CLIENTES
+        cursor.execute("SELECT idCliente, nombre, direccion, noTelefono, sexo, ingresosAnuales FROM dbo.CLIENTES")
+        columnas = [col[0] for col in cursor.description]  # Nombres de las columnas
+        resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]  # Combina columnas con datos
+    
+    # Renderiza la plantilla HTML con los resultados
+    return render(request, 'vistas/lista_clientes.html', {'clientes': resultados})
+
 
 
 #BITACORA
@@ -18,7 +31,7 @@ def lista_bitacora(request):
     # Verifica los resultados
     print(resultados)  # Agrega esto para depuración
     
-    return render(request, 'bitacora/lista_bitacora.html', {'bitacoras': resultados})
+    return render(request, 'vistas/lista_bitacora.html', {'bitacoras': resultados})
 
 #Concecionarios
 def lista_concesionarios(request):
@@ -29,7 +42,7 @@ def lista_concesionarios(request):
         resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]  # Combina columnas con datos
     
     # Renderiza la plantilla HTML con los resultados
-    return render(request, 'bitacora/lista_concesionarios.html', {'concesionarios': resultados})
+    return render(request, 'vistas/lista_concesionarios.html', {'concesionarios': resultados})
 
 #VEHICULOS
 def lista_vehiculos(request):
@@ -40,7 +53,7 @@ def lista_vehiculos(request):
         resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]  # Combina columnas con datos
     
     # Renderiza la plantilla HTML con los resultados
-    return render(request, 'bitacora/lista_vehiculos.html', {'vehiculos': resultados})
+    return render(request, 'vistas/lista_vehiculos.html', {'vehiculos': resultados})
 
 #PROVEEDORES
 def lista_proveedores(request):
@@ -49,7 +62,7 @@ def lista_proveedores(request):
         columnas = [col[0] for col in cursor.description]
         resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]
     
-    return render(request, 'bitacora/lista_proveedores.html', {'proveedores': resultados})
+    return render(request, 'vistas/lista_proveedores.html', {'proveedores': resultados})
 
 #MODELOS
 def lista_modelos(request):
@@ -60,7 +73,7 @@ def lista_modelos(request):
         resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]  # Combina columnas con datos
     
     # Renderiza la plantilla HTML con los resultados
-    return render(request, 'bitacora/lista_modelos.html', {'modelos': resultados})
+    return render(request, 'vistas/lista_modelos.html', {'modelos': resultados})
 
 #PLANTAS
 def lista_plantas(request):
@@ -71,7 +84,7 @@ def lista_plantas(request):
         resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]  # Combina columnas con datos
     
     # Renderiza la plantilla HTML con los resultados
-    return render(request, 'bitacora/lista_plantas.html', {'plantas': resultados})
+    return render(request, 'vistas/lista_plantas.html', {'plantas': resultados})
 
 
 #VENTAS
@@ -83,4 +96,4 @@ def lista_ventas(request):
         resultados = [dict(zip(columnas, fila)) for fila in cursor.fetchall()]  # Combina columnas con datos
     
     # Renderiza la plantilla HTML con los resultados
-    return render(request, 'bitacora/lista_ventas.html', {'ventas': resultados})
+    return render(request, 'vistas/lista_ventas.html', {'ventas': resultados})

@@ -1,6 +1,5 @@
 from django.apps import AppConfig
 
-
-class BitacoraConfig(AppConfig):
+class VistasConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'bitacora'
+    name = 'vistas'  
